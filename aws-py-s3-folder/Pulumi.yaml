@@ -1,0 +1,8 @@
+name: s3-app1
+description: Creating S3 bucket
+runtime:
+    name: python
+    options:
+        virtualenv: venv
+backend:
+    url: azblob://state
